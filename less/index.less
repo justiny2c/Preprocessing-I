@@ -55,6 +55,57 @@ table {
 
 html, body {
 	height: 100%;
-	// background-color: red;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
 }
 
+@small-font: 1em;
+@medium-font: 1.2em;
+@large-font: 2em;
+
+h1 {
+	font-size: @large-font;
+}
+
+h2 {
+	font-size: @medium-font;
+
+}
+
+#top-content {
+	background: lightgray;
+	height: 25%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	padding: 20px;
+
+	h2 {
+		padding-bottom: 10px;
+	}
+
+	p {
+		padding-top: 10px;
+		border-top: 1px solid darkgray;
+	}
+}
+
+#middle-content {
+	background: lightgray;
+	height: 40%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin-top: 20px;
+	width: 100%;
+
+	div {
+		width: 40%;
+	}
+
+}
