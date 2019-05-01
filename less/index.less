@@ -63,8 +63,8 @@ html, body {
 	justify-content: space-between;
 }
 
-@small-font: 1em;
-@medium-font: 1.2em;
+@small-font: 1.2em;
+@medium-font: 1.4em;
 @large-font: 2em;
 
 h1 {
@@ -76,6 +76,20 @@ h2 {
 
 }
 
+h3 {
+	font-size: @small-font;
+}
+
+nav {
+	background: lightgrey
+}
+	
+a {
+	text-decoration: none;
+	color: rgb(14, 75, 165);
+	padding-right: 30px;
+}
+
 #top-content {
 	background: lightgray;
 	height: 25%;
@@ -83,6 +97,7 @@ h2 {
 	flex-flow: column;
 	justify-content: space-evenly;
 	padding: 20px;
+	margin-top: 20px;
 
 	h2 {
 		padding-bottom: 10px;
@@ -104,8 +119,20 @@ h2 {
 	margin-top: 20px;
 	width: 100%;
 
-	div {
-		width: 40%;
+	.middle-section {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
 	}
+
+	div {
+		width: 49.5%; 
+		padding-right: 20px;
+		padding-top: 10px;
+
+		div {
+		}
+	}
+
 
 }
