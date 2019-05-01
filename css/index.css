@@ -140,6 +140,14 @@ body {
   flex-flow: column;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 h1 {
   font-size: 1.8em;
 }
