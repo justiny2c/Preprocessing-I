@@ -133,9 +133,9 @@ table {
 html,
 body {
   height: 100%;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -146,6 +146,7 @@ body {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    background: #4eade4;
   }
 }
 h1 {
@@ -236,14 +237,14 @@ input[type=text] {
   padding: 20px;
   margin-top: 20px;
 }
+@media (max-width: 500px) {
+  #bottom-content {
+    height: 100%;
+    position: relative;
+  }
+}
 #bottom-content div {
   padding-bottom: 5px;
-}
-@media (max-width: 500px) {
-  #bottom-content div {
-    width: 100%;
-    height: 100%;
-  }
 }
 #bottom-content footer {
   display: flex;
